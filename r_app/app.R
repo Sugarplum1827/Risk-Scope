@@ -9,10 +9,9 @@
 # 3. Or deploy to shinyapps.io:
 #    rsconnect::deployApp()
 #
-# Author: R Shiny GARCH Application
+# Author: SugarPlum
 # Date: July 06, 2025
 
-# Load required libraries
 library(shiny)
 library(rugarch)
 library(quantmod)
@@ -21,7 +20,6 @@ library(plotly)
 library(DT)
 library(shinydashboard)
 
-# Define UI
 ui <- dashboardPage(
   dashboardHeader(title = "Financial Volatility Forecasting with GARCH"),
   

@@ -9,8 +9,6 @@ library(xts)
 library(plotly)
 library(moments)
 
-# Example 1: Basic GARCH Analysis
-# ================================
 
 # Function to fetch and prepare data
 fetch_stock_data <- function(ticker, start_date, end_date) {
